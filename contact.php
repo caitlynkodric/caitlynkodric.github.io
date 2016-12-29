@@ -2,14 +2,17 @@
 
 if($_POST["submit"]) {
     $recipient="c.kodric@gmail.com";
-    $subject=$_POST["senderSubject"];
+    $sunject="Contact Form";
+
+    $senderSubject=$_POST["senderSubject"];
     $sender=$_POST["sender"];
     $senderEmail=$_POST["senderEmail"];
-    $message=$_POST["senderMessage"];
+    $senderMessage=$_POST["senderMessage"];
 
-    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$subject\n\n$message";
+    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$senderSubject\n\n$senderMessage";
 
-    mail($recipient, "sent: $subject", $mailBody, "From: $sender <$senderEmail>");
+    mail($recipient, $subject, $mailBody);
 
-    $thankYou="<p>Thank you! Your message has been sent.</p>";
+    echo "Thank You! Your message has been sent.";
 }
+?>
