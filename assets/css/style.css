@@ -292,6 +292,10 @@ a.noTextDeco:hover{
 	text-decoration: none;
 }
 
+.marginAuto {
+	margin: auto;
+}
+
 /*@media (min-width: 979px) {
 	.navbar-brand {
 		margin-top: -48px;
