@@ -288,6 +288,10 @@ h2, h3, h4, h5, h6 {
 	list-style: none
 }
 
+.noTextDeco {
+	text-decoration: none;
+}
+
 /*@media (min-width: 979px) {
 	.navbar-brand {
 		margin-top: -48px;
