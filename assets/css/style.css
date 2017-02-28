@@ -8,13 +8,13 @@
 
 
 ::-moz-selection {
-    background: #3399CC;
+    background: #339933;
     color: #FFFFFF;
     text-shadow: none;
 }
 
 ::selection {
-    background: #3399CC;
+    background: #339933;
     color: #FFFFFF;
     text-shadow: none;
 }
@@ -72,7 +72,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-brand {
-	color: #3399CC;
+	color: #339933;
 }
 
 .navbar-default {
@@ -91,8 +91,8 @@ h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	color: #3399CC;
-	border-bottom: 1px #3399CC solid
+	color: #339933;
+	border-bottom: 1px #339933 solid
 }
 
 /* ==========================================================================
@@ -244,7 +244,7 @@ h2, h3, h4, h5, h6 {
 
 /* Slick Changes */
 .slick-prev:before, .slick-next:before{
-	color: #3399CC !important
+	color: #339933 !important
 }
 
 /* ADDED */
